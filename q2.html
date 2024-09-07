@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: antiquewhite;
+            color: #414141;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            margin: 20px;
+        }
+
+        section {
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        aside {
+            flex: 1;
+        }
+
+        article {
+            background: #e7e1e1;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background:antiquewhite;
+            color: #414141;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        th {
+            background: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <p>Exploring the world, one post at a time</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>My First Blog Post</h2>
+                <p><strong>Date:</strong> September 4, 2024</p>
+                <p><strong>Author:</strong> Apurba Bhattacharjee </p>
+                <p>Welcome to my first blog post! I'm excited to start this journey of sharing my thoughts and experiences with the world. Stay tuned for more updates.</p>
+            </article>
+
+            <article>
+                <h2>My Travel Experience</h2>
+                <p><strong>Date:</strong> May, 2024</p>
+                <p><strong>Author:</strong> Apurba Bhattacharjee </p>
+                <p>I recently traveled to Ahmedabad, and it was an amazing experience. Here's a table summarizing the places I visited and my ratings for each:</p>
+
+                <table>
+                    <tr>
+                        <th>Place</th>
+                        <th>Rating</th>
+                    </tr>
+                    <tr>
+                        <td>Gandhi Museum</td>
+                        <td>5/5</td>
+                    </tr>
+                    <tr>
+                        <td>Atal Bridge</td>
+                        <td>4.5/5</td>
+                    </tr>
+                    <tr>
+                        <td>Botanical garden</td>
+                        <td>4/5</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Categories</h3>
+            <ul>
+                <li>Travel</li>
+                <li>Food</li>
+                <li>Technology</li>
+            </ul>
+
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">My First Blog Post</a></li>
+                <li><a href="#">My Travel Experience</a></li>
+            </ul>
+
+            <h3>Subscribe</h3>
+            <form action="#">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+        <p>Follow me on:
+            <a href="#">Twitter</a> |
+            <a href="#">Facebook</a> |
+            <a href="mailto:john@example.com">Email</a>
+        </p>
+    </footer>
+</body>
+
+</html>
